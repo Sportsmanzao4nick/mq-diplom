@@ -152,7 +152,7 @@ html{
     background-position: center center;
     background-size: cover;
     position: relative;
-    width: calc(25% - 0.75%);
+    width: calc(25% - 0.25%);
     min-height: 320px;
     display: flex;
     align-items: flex-end;
