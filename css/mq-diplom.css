@@ -696,6 +696,7 @@ html{
     padding: 50px 30px; 
     overflow-y: auto;
     height: 70vh;
+    max-height: 700px;
 }
 
 
