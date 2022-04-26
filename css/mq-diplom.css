@@ -695,7 +695,7 @@ html{
     background: #fff;
     padding: 50px 30px; 
     overflow-y: auto;
-    height: 70vh;
+    height: 90%;
     max-height: 700px;
 }
 
