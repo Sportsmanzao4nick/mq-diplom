@@ -31,7 +31,7 @@ html{
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    padding: 0 230px;
+    /* padding: 0 230px; */
     position: relative;
     font-size: 13px;    
 }
@@ -176,7 +176,7 @@ html{
 /* рамка поста */
 .trend-post__header {
     border: 3px solid #7b6e45;
-    padding: 10%;
+    padding: 8% calc(15% - 4vmin);
     position: relative;
     z-index: 10;
     flex-grow: 1;
@@ -696,7 +696,7 @@ html{
     padding: 50px 30px; 
     overflow-y: auto;
     height: 90%;
-    max-height: 700px;
+    max-height: 700px;   
 }
 
 
@@ -886,7 +886,7 @@ html{
         margin-top: 0.39%;
     }
     .main-tittle__white {        
-        font-size: 18px;        
+        font-size: 17px;        
     }
     .main-tittle__black {
         font-size: 18px;
@@ -972,6 +972,7 @@ html{
     .copyright {
         margin: 0 0 35px 0;
     }
+    
 }
 /* верстка для планшета в горизонтальном положении */
 @media (min-width: 641px) and (max-width: 1200px) and (orientation: landscape) {
@@ -1077,7 +1078,10 @@ html{
         width:100%;
         min-height: 230px;
         padding: 0 20px 15px 20px;                  
-    }   
+    }
+    .trend-post__header{
+        padding: 9% 6%;
+    }
     .trend-post:nth-child(n+2) {
         margin-left: 0;
     } 
@@ -1192,10 +1196,10 @@ html{
         flex-wrap: wrap;
     }
     .trend-post{        
-        width: calc(50% - 0.39%);
+        width: calc(50% - 0.2%);
         min-height: 250px;        
         padding: 0 20px 15px 20px;        
-    }
+    }    
     .trend-post:nth-child(n+2) {
         margin-top: 0;
     }
@@ -1203,9 +1207,9 @@ html{
         margin-left: 0;
     }
     .trend-post:nth-child(2n+2){
-        margin-left: 0.39%;
+        margin-left: 0.4%;
     }
     .trend-post:nth-child(n+3) {
-        margin-top: 0.39%;
+        margin-top: 0.4%;
     }    
 }
